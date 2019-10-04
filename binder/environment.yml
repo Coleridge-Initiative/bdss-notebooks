@@ -1,0 +1,6 @@
+name: ada-intro-sql
+channels:
+  - conda-forge
+dependencies:
+  - ipywidgets
+  - beakerx
