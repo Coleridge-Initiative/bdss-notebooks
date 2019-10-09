@@ -1,6 +1,6 @@
 #!/bin/bash
 
-files='offender.sql inmate.sql'
+files='offender.sql inmate.sql sentences.sql'
 
 for file in $files
 do
