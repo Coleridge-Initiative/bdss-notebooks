@@ -4,3 +4,9 @@ channels:
 dependencies:
   - ipywidgets
   - beakerx
+  - pandas
+  - sqlite3
+  - parse
+  - numpy
+  - scikit-learn
+  - seaborn
