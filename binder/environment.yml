@@ -5,3 +5,4 @@ dependencies:
   - ipywidgets
   - beakerx
   - scikit-learn
+  - seaborn
