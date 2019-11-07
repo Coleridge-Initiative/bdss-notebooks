@@ -113,7 +113,6 @@ def create_features(features_end, prediction_start, prediction_end, conn, output
     
     try:
         cur.executescript(sql_script)
-        cur.fetchall()
         cur.close()
         conn.commit()
     except:
