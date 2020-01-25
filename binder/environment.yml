@@ -6,4 +6,6 @@ dependencies:
   - beakerx
   - scikit-learn
   - seaborn
-  - aequitas
+  - pip
+  - pip:
+    - aequitas
