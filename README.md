@@ -63,9 +63,9 @@ In this workbook, you will learn how to:
 
 ## Record Linkage
 
-In the *Record Linkage* workbook you will use Python to implement the basic
+In the *Record Linkage* workbook, you will use Python to implement the basic
 concepts behind record linkage using data from PatentsView and Federal 
-RePORTER. This workbook will cover using probabalistic record linkage, 
+RePORTER. This workbook will cover how to pre-process data for linkage before demonstrating multiple methods of record linkage, including probabilistic record linkage, 
 in which different types of string comparators are used to compare multiple 
 pieces of information between two records to produce a score that indicates 
 how likely it is that the records are data about the same underlying entity. 
@@ -82,7 +82,7 @@ In this workbook, you will learn how to:
 
 ## Text Analysis 
 
-In the Text Analysis notebook, you will use the data that you pulled from 
+In the *Text Analysis* notebook, you will use the data that you pulled from 
 the PatentsView API in the API notebook to find topics from patent abstracts. 
 This will involve going through every step of the process, from extracting 
 the data to cleaning and preparing to using topic modeling algorithms. 
@@ -96,7 +96,7 @@ In this workbook, you will learn how to:
 
 ## Networks
 
-In the Networks workbook you will create network data where the nodes
+In the *Networks* workbook you will create network data where the nodes
 are researchers who have been awarded grants, and ties are created
 between each researcher on a given grant. You will use Python to read
 the grant data and translate them into network data, calculate node- 
@@ -151,12 +151,11 @@ it demonstrates how to construct and compare many different machine learning mod
 
 ## Bias and Fairness
 
-The *Bias and Fairness* workbook exemplifies the usage of the bias and 
-fairness audit toolkit Aequitas in Python. This workbook is centered 
-around the COMPAS (Correctional Offender Management Profiling for 
-Alternative Sanctions) case study of chapter [Bias and Fairness](#chap:bias) 
-and demonstrates how Aequitas can be used to detect and evaluate biases 
-of a machine learning system. You will learn how to: 
+The *Bias and Fairness* workbook demonstrates an example of using the bias and 
+fairness audit toolkit Aequitas in Python. This workbook uses an example 
+from criminal justice and demonstrates how Aequitas can be used to 
+detect and evaluate biases of a machine learning system in relation to 
+multiple (protected) subgroups. You will learn how to: 
 
 - Calculate confusion matrices for subgroups and visualize performance metrics by groups,
 
